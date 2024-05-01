@@ -1,0 +1,48 @@
+/* Style the heading */
+h2 {
+    color: #007BFF;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the table container */
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+/* Style table headers (th) */
+.user-table th {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Style table cells (td) */
+.user-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+}
+
+/* Style alternating row colors for better readability */
+.user-table tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+/* Style the delete link */
+.delete-link {
+    text-decoration: none;
+    color: #FF0000;
+    font-size: 20px;
+}
+
+.delete-link:hover {
+    text-decoration: underline;
+    color: #CC0000;
+}
