@@ -50,7 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   if ($document) {
     $_SESSION["email"] = $email;
-    $_SESSION["password"] = $document["password"];
+    $_SESSION["password"] = $password;
 
     $_SESSION["login"] = true;
     header("Location: index.php");
